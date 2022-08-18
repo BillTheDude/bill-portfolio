@@ -1,4 +1,6 @@
 import React from 'react'
+import Image from 'next/image'
+import AboutImg from '../public/assets/macbook-pro.img.jpg'
 
 const About = () => {
   return (
@@ -8,11 +10,11 @@ const About = () => {
                 <p className='uppercase text-xl tracking-widest text-[#F0A500]'>About</p>
                 <h2 className='py-4'>Who I Am</h2>
                 <p className='py-2 text-gray-600'>I am a 25 year old Latino college student from Florida International University. Pursuing a 2nd Bachelors Degree in Cybersecurity after obtaining my 1st Bachelors Degree in Computer Science. I am very passionate with Web Development related topics and I consider myself an open minded person who loves to learn and think out of the box within the tech field.</p>
-                <p className='py-2 text-gray-600'>Ever since I coded my very first "Hello World" program I knew I wanted to be part of the programming world and experience the magic of creating programs/apps to deliver the best experience for every user in the world. My hobbies are cooking, working out at the gym, meet with friends, go to concert, and make YouTube videos for my YouTube channel. I've been doing YouTube since 2016!</p>
+                <p className='py-2 text-gray-600'>Ever since I coded my very first &quot;Hello World&quot; program I knew I wanted to be part of the programming world and experience the magic of creating programs/apps to deliver the best experience for every user in the world. My hobbies are cooking, working out at the gym, meet with friends, go to concert, and make YouTube videos for my YouTube channel. I&apos;ve been doing YouTube since 2016!</p>
                 <p className='py-2 text-gray-600'>Check out some of my latest projects.</p>
             </div>
             <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4'>
-                <img className='rounded-xl' src='https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1326&q=80' alt='/'></img>
+                <Image className='rounded-xl' src={AboutImg} alt='/'/>
             </div>
         </div>
     </div>
