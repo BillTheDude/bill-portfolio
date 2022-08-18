@@ -5,7 +5,7 @@ import ProjectItem from './ProjectItem'
 import codeEarnImg from '../public/assets/projects/Code2Earn Screenshot 1.png'
 import ytDownload from '../public/assets/projects/python-yt-download-screenshot3.png'
 import hekaApp from '../public/assets/projects/Heka Screenshot 2.png'
-import pageInProgress from '../public/assets/projects/Page_UNder_Construction.png'
+import pageInProgress from '../public/assets/projects/Page_Under_Construction.png'
 
 
 const Projects = () => {
