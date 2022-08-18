@@ -3,7 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from 'next/link'
-import pageInProgress from '../public/assets/projects/Page_UNder_Construction.png'
+import pageInProgress from '../public/assets/projects/Page_Under_Construction.png'
 
 
 const gymWebsite = () => {
