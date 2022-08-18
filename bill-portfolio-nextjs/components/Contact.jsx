@@ -16,12 +16,12 @@ const Contact = () => {
                 <div className='col-span03 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
                     <div className='lg:p-4 h-full'>
                         <div>
-                            <img className='rounded-xl hover:scale:105 ease-in duration-300'/>
+                            {/* <img className='rounded-xl hover:scale:105 ea e-in duration-300'/> */}
                         </div>
                         <div>
-                            <h2 className='py-2'>Name here:</h2>
+                            <h2 className='py-2'>Bill Liza</h2>
                             <p>Software Engineer</p>
-                            <p className='py-4'>I am available for Internship Opportunities</p>
+                            <p className='py-4'>I am available for Full Time Positions. Contact me and Let&apos;s talk.</p>
                         </div>
                         <div>
                             <p className='uppercase pt-8'>Connect With Me</p>
